@@ -149,6 +149,17 @@ article div img {
   background-color: #f2cb05da;
 }
 
+.botonRecetas:hover{
+  background-color: rgb(23, 26, 29);
+  transition: all ease 0.3s;
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  
+}
+
 .lista__ingredientes {
   display: flex;
   justify-content: center;
@@ -370,7 +381,8 @@ hr {
 }
 
 .contacto {
-  margin: 2rem
+  margin: 2rem;
+  margin-top: 8rem;
 }
 
 .contacto__submit {
@@ -384,20 +396,18 @@ hr {
   background-color: #f2cb05da;
   margin-top: 1rem;
 }
-.contacto__submit:hover{
+.contacto__submit:hover {
   -moz-transform: scale(1.1);
   -webkit-transform: scale(1.1);
   -o-transform: scale(1.1);
   -ms-transform: scale(1.1);
   transform: scale(1.1);
-
 }
 
 .recetas__foto {
   width: 600px;
 }
 
-.contactanos__titulo h1{
+.contactanos__titulo h1 {
   font-size: 3em;
-
 }
