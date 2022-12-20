@@ -82,6 +82,11 @@ button {
 button:hover {
   background-color: rgb(23, 26, 29);
   transition: all ease 0.3s;
+  -moz-transform: scale(1.5) rotate(360deg);
+-webkit-transform: scale(1.5) rotate(360deg);
+-o-transform: scale(1.5) rotate(360deg);
+-ms-transform: scale(1.5) rotate(360deg);
+transform: scale(1.5) rotate(360deg);
 }
 
 .recetas {
@@ -106,17 +111,10 @@ button:hover {
 }
 
 .recetas__index {
-  width: 100%;
-}
-@media screen and (min-width: 700px) {
-.recetas__index {
-    width: 48%;
-  }
-}
-@media screen and (min-width: 1000px) {
-.recetas__index {
-    width: 24%;
-  }
+  display: flex;
+  justify-content: space-around;
+  padding: 5%;
+  align-items: center;
 }
 
 article div img {
