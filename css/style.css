@@ -82,11 +82,16 @@ button {
 button:hover {
   background-color: rgb(23, 26, 29);
   transition: all ease 0.3s;
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .recetas {
   display: flex;
-  flex-direction:row;
+  flex-direction: row;
   flex-wrap: wrap;
   width: 100%;
   justify-content: space-around;
@@ -95,10 +100,10 @@ button:hover {
   .recetas ul {
     display: none;
   }
-  .recetas__ingredientes{
+  .recetas__ingredientes {
     display: none;
   }
-  .recetas{
+  .recetas {
     display: flex;
     width: 100%;
     justify-content: center;
@@ -126,7 +131,7 @@ article div img {
   margin: 30px 0px;
 }
 
-.boton__recetas{
+.boton__recetas {
   display: flex;
   align-items: center;
 }
@@ -272,7 +277,6 @@ hr {
   color: #f25c05;
 }
 
-
 .tecnicas__titulo {
   font-size: 1.5rem;
   margin: 1rem;
@@ -317,7 +321,7 @@ hr {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  margin: 40px;
+  margin-top: 13em;
   box-shadow: 2px 10px 20px 10px rgba(0, 0, 0, 0.5);
   align-items: center;
   padding: 2rem;
@@ -366,7 +370,7 @@ hr {
 }
 
 .contacto {
-  margin: 17rem 8rem;
+  margin: 2rem
 }
 
 .contacto__submit {
@@ -380,7 +384,20 @@ hr {
   background-color: #f2cb05da;
   margin-top: 1rem;
 }
+.contacto__submit:hover{
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+
+}
 
 .recetas__foto {
   width: 600px;
+}
+
+.contactanos__titulo h1{
+  font-size: 3em;
+
 }
