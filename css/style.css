@@ -149,7 +149,7 @@ article div img {
   background-color: #f2cb05da;
 }
 
-.botonRecetas:hover{
+.botonRecetas:hover {
   background-color: rgb(23, 26, 29);
   transition: all ease 0.3s;
   -moz-transform: scale(1.1);
@@ -157,7 +157,6 @@ article div img {
   -o-transform: scale(1.1);
   -ms-transform: scale(1.1);
   transform: scale(1.1);
-  
 }
 
 .lista__ingredientes {
