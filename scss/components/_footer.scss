@@ -8,14 +8,13 @@
   padding: 2rem;
 
 
-    &__texto,
-    .footer_logos {
+    &__texto {
       width: 100%;
-    }
 
-    &__texto p {
-      color: #f21905;
-      margin: 0;
+      p {
+        color: #f21905;
+        margin: 0;
+      }
     }
 
     &_logos svg {
