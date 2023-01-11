@@ -6,21 +6,23 @@
   box-shadow: 2px 10px 20px 10px rgba(0, 0, 0, 0.5);
   align-items: center;
   padding: 2rem;
-}
 
-.footer__texto,
-.footer_logos {
-  width: 100%;
-}
 
-.footer__texto p {
-  color: #f21905;
-  margin: 0;
-}
+    &__texto,
+    .footer_logos {
+      width: 100%;
+    }
 
-.footer_logos svg {
-  height: auto;
-  width: 30px;
-  max-height: 30px;
-  fill: #f21905;
+    &__texto p {
+      color: #f21905;
+      margin: 0;
+    }
+
+    &_logos svg {
+      height: auto;
+      width: 30px;
+      max-height: 30px;
+      fill: #f21905;
+    }
+
 }
