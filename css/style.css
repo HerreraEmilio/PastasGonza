@@ -4,6 +4,55 @@
   box-sizing: border-box;
   font-family: "Open Sans", sans-serif; }
 
+h1 {
+  font-size: 5rem;
+  color: #f25c05; }
+
+p {
+  font-size: 1rem;
+  justify-content: center;
+  color: #f25c05; }
+
+.recetas__ingredientes {
+  color: #f25c05; }
+
+.recetas__h3 {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  text-align: center;
+  box-shadow: 2px 10px 20px 10px rgba(0, 0, 0, 0.5);
+  color: #f25c05; }
+
+.subtitulo_index {
+  font-size: 2.5rem;
+  margin: 5% 35%;
+  padding: 10px 10px;
+  text-align: center;
+  box-shadow: 2px 10px 20px 10px rgba(0, 0, 0, 0.5);
+  color: #f25c05; }
+
+.lista {
+  border: solid rgba(112, 109, 109, 0.2);
+  border-radius: 10px;
+  margin: 5% 15%;
+  overflow: hidden;
+  color: #f25c05; }
+
+.titulo_productos {
+  font-size: 2.5rem;
+  margin: 5% 35%;
+  padding: 10px 10px;
+  text-align: center;
+  box-shadow: 2px 10px 20px 10px rgba(0, 0, 0, 0.5);
+  color: #f25c05; }
+
+.tecnicas__titulo {
+  font-size: 1.5rem;
+  margin: 1rem;
+  text-align: center;
+  box-shadow: 2px 10px 20px 10px rgba(0, 0, 0, 0.5);
+  color: #f2cb05da; }
+
 .cabecera_index {
   display: flex;
   align-items: center;
@@ -126,15 +175,6 @@ body {
 
 img {
   max-width: 100%; }
-
-h1 {
-  font-size: 5rem;
-  color: #f25c05; }
-
-p {
-  font-size: 1rem;
-  justify-content: center;
-  color: #f25c05; }
 
 .contacto__input {
   color: gray;

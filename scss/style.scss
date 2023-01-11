@@ -1,4 +1,5 @@
 @import "./normalize/reset";
+@import "./components/text";
 @import "./components/cabecera";
 @import "./views/queries";
 @import "./components/footer";
@@ -11,15 +12,7 @@ body {
 img {
   max-width: 100%;
 }
-h1 {
-  font-size: 5rem;
-  color: #f25c05;
-}
-p {
-  font-size: 1rem;
-  justify-content: center;
-  color: #f25c05;
-}
+
 
 .contacto__input {
     color: gray;
