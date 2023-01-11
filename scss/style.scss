@@ -12,6 +12,10 @@ body {
 img {
   max-width: 100%;
 }
+hr {
+    border: 2px solid rgba(112, 109, 109, 0.2);
+    margin: 30px 0;
+  }
 
 
 .contacto__input {
@@ -81,4 +85,27 @@ img {
     padding: 10px 10px;
     text-align: center;
     box-shadow: 2px 10px 20px 10px rgba(0, 0, 0, 0.5);
+  }
+
+  .lista__ingredientes {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-size: 1.5rem;
+  }
+  
+  .pasos {
+    display: flex;
+    justify-content: center;
+  }
+  .pastaGonza {
+    padding: 20%;
+  }
+  
+  .lista__pasos {
+    list-style-type: decimal;
+    display: flex;
+    justify-content: center;
+    margin: 10%;
+    font-size: 1.5rem;
   }
