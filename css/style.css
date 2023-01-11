@@ -58,6 +58,38 @@
   max-height: 30px;
   fill: #f21905; }
 
+article div img {
+  box-shadow: 2px 10px 20px 10px rgba(0, 0, 0, 0.5); }
+
+.lista__img {
+  text-align: center;
+  padding: 5%;
+  background-color: rgba(112, 109, 109, 0.2); }
+
+.lista__img img {
+  border-radius: 10px;
+  max-width: 30%; }
+
+button {
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 10px 10px;
+  border-radius: 10px;
+  border: 2px solid;
+  box-shadow: 2px 2px 10px;
+  color: #f25c05;
+  background-color: #f2cb05da;
+  transition: all ease 0.3s; }
+
+button:hover {
+  background-color: #171a1d;
+  transition: all ease 0.3s;
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1); }
+
 body {
   background-color: #1f1e26; }
 
@@ -72,3 +104,43 @@ p {
   font-size: 1rem;
   justify-content: center;
   color: #f25c05; }
+
+.contacto__input {
+  color: gray;
+  outline: 0;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  padding-top: 1.75rem;
+  padding-bottom: 1.75rem;
+  background-color: transparent;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 2px;
+  border-color: rgba(255, 255, 255, 0.2);
+  width: 100%; }
+
+.contacto {
+  margin: 2rem;
+  margin-top: 8rem; }
+
+.contacto__submit {
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 10px 10px;
+  border-radius: 10px;
+  border: 2px solid;
+  box-shadow: 2px 2px 10px;
+  color: #f25c05;
+  background-color: #f2cb05da;
+  margin-top: 1rem; }
+
+.contacto__submit:hover {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1); }
+
+.contactanos__titulo h1 {
+  font-size: 3em; }
