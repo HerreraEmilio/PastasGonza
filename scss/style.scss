@@ -1,5 +1,6 @@
 @import "./normalize/reset";
 @import "./components/cabecera";
+@import "./views/queries";
 
 body {
   background-color: #1f1e26;
@@ -16,3 +17,5 @@ p {
   justify-content: center;
   color: #f25c05;
 }
+
+
